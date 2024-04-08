@@ -24,12 +24,16 @@ Este mismo comando debemos verificar en la consola local de nuestro sistema oper
 
 Si quieres instalar Git en Linux a través de un instalador binario, en general puedes hacerlo mediante la herramienta básica de administración de paquetes que trae tu distribución. Si estás en Fedora por ejemplo, puedes usar yum:
 
-```$ yum install git
+```
+$ yum install git
+
 ```
 
 Si estás en una distribución basada en Debian como Ubuntu, puedes usar apt-get:
 
-``` $ apt-get install git
+``` 
+$ apt-get install git
+
 ```
 
 Para opciones adicionales, la página web de Git tiene instrucciones de instalación en diferentes tipos de Unix. Puedes encontrar esta información en [http://git-scm.com/download/linux](http://git-scm.com/download/linux).
