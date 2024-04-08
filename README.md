@@ -22,4 +22,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Cómo instalar GitHub https://youtu.be/ZL5ob1DlYhY
 - Cómo usar Discord para las sesiones de trabajo colaborativo https://youtu.be/etfWfN1b0YI
 ## Modulo 1
-- 08/04/2024 
+- Clase #1, 08/04/2024 Intro. HTML Etiquetas básicas.
+
+## URL's de material complementario de clase
+- Clase #1, 08/04/2024 - HTML Etiquetas básicas: [Material complementario C1](https://foremost-market-88d.notion.site/Clase-1-M-HTML-y-CSS-Introducci-n-general-a-temas-y-HTML-5b760594c1244b43b13c1ca7f1d21f01?pvs=4).
