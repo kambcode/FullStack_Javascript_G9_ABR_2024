@@ -6,6 +6,6 @@
 
 2. Vamos a crear nuestra propia hoja de vida, utilizando únicamente HTML y las etiquetas vistas en clase (img, h1, h2, p, ul). Para ello te sugerimos la siguinete estructura:
 
-![homework](./resources/Homework1.png)
+![homework](./resources/homework.png)
 
 # Grupos de trabajo
