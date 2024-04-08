@@ -48,22 +48,30 @@ Una vez completamos el proceso de registro ya tendremos una cuenta de GitHub, ah
 
 Primero configuraremos nuestro nombre de usuario de Git, ejecutando el siguiente comando
 
-```git config --global user.name "Mona Lisa"
+```
+git config --global user.name "Mona Lisa"
+
 ```
 
 En este ejemplo nuestro nombre de usuario es Mona Lisa, por supuesto reemplazaremos aquí nuestro nombre de usuario deseado, para verificar si quedó bien configurado ahora ejecutaremos el comando sin el argumento del nombre de usuario, este debe retornarnos nuestro nombre de usuario
 
-```git config --global user.name
+```
+git config --global user.name
+
 ```
 
 Luego tendremos que asociar nuestro correo electrónico para que nuestros commits que mas adelante veremos que son queden asociados a nuestro correo, esta configuración se hace con el siguiente comando
 
-```git config --global user.email "TU_CORREO"
+```
+git config --global user.email "TU_CORREO"
+
 ```
 
 Verificamos que el correo quedó bien configurado haciendo uso del siguiente comando
 
-```git config --global user.email
+```
+git config --global user.email
+
 ```
 
 Debe retornarnos el correo ingresado anteriormente. La idea es que este correo sea el mismo con el que creamos la cuenta de GitHub para que queden asociados a la cuenta.
