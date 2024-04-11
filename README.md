@@ -23,3 +23,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Cómo usar Discord para las sesiones de trabajo colaborativo https://youtu.be/etfWfN1b0YI
 ## Modulo 1
 - Clase #1, 08/04/2024 Intro. HTML Etiquetas básicas - https://youtu.be/YkVqHBMJAf0.
+- Clase #2, 10/04/2024 Intro. HTML Etiquetas básicas - https://youtu.be/4unCUKrX6Rg.
