@@ -1,4 +1,4 @@
-### Bootcamp Desarrollador full stack Javascript
+# Bootcamp Desarrollador full stack Javascript
 
 Antes de empezar puedes configurar tu setup inicial de forma muy sencilla para poder trabajar como todo un desarollador, por favor sigue los siguientes pasos:
 
