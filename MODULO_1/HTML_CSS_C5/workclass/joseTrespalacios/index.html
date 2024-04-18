@@ -4,39 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo bases de CSS C5 M1 G9</title>
+    <!-- ¿Cómo llamo mi CSS, en este HTML? -->
+    <!-- 1. Creo mi archivo css -> "app.css", "styles.css", "main.css"  -->
+    <!-- 2. Enlazo mi archivo CSS con mi HTML -->
+    <!-- Este es mi primer linkeo de CSS  -->
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- Esto es un selector de CSS, en etiqueta <style> dentro de
+    la cabecera. -->
+    <style>
+        /* Esto es un selector de tipo elemento */
+        /* Recordar que los selectores tipo elemento
+        son los que se llaman con el mismo nombre reservado
+        de la etiqueta. Ej: h2, p, a... etc... */
+        h2 {
+            color:brown;
+        }
+
+        p {
+            font-size: 15px;
+            color: gray;
+        }
+
+        /* Este es un selector tipo id */
+        #colorParrafoAlto {
+            color:blueviolet;
+            font-size: 14px;
+            border: solid 2px blueviolet;
+        }
+        
+        /* Este es un selector de tipo clase. */
+        .colorParrafoMedio {
+            color: brown;
+            font-size: 18px;
+            border: solid 2px brown;
+        }
+
+        .colorParrafoBajo {
+            color: green;
+            font-size: 16px;
+            border: dotted 2px green;
+        }
+    </style>
 </head>
 <body>
-    <!-- Este es mi título -->
-    <h1>CSS y HTML Intro</h1>
-    <!-- Este es un párrafo -->
-    <p>
-        CSS, que significa "Cascading Style Sheets" 
-        (Hojas de Estilo en Cascada), es un lenguaje 
-        utilizado en el desarrollo de sitios web para 
-        dar estilo y diseño a las páginas HTML. Mientras 
-        que HTML se encarga de definir la estructura y 
-        el contenido de una página web, CSS se utiliza 
-        para controlar cómo se ve esa estructura y cómo 
-        se presentan los elementos en la página.
-    </p>
-    <!-- Esta es una lista desordenada de equipos. -->
-    <ul>
-        <li>Real Madrid</li>
-        <li>PSG</li>
-        <li>Borussia Dortmund</li>
-        <li>Bayern Munich</li>
-    </ul>
-    <!-- Esta es una lista desordenada tipo menú. -->
-    <ul>
-        <li>
-            <a href="">Menú</a>
-        </li>
-        <li>
-            <a href="">Inicio</a>
-        </li>
-        <li>
-            <a href="">Nosotros</a>
-        </li>
-    </ul>
+    <div>
+        <h1>CSS y HTML Intro</h1>
+        <!--  -->
+        <h2>Formas de llamar estilos</h2>
+        <ul>
+            <li>
+                <!-- Este es mi título -->
+                <!-- Requerimiento ej: Poner el título o H1 color, verde. -->
+                <!-- 1. Esto es una declaración de un estilo en línea -->
+                <h3 style="color:teal">En línea</h3>
+            </li>
+            <li>
+                <h3>En la cabecera</h3>
+            </li>
+            <li>En hojas de estilo externas</li>
+        </ul>
+    </div>
+    <div>
+        <!-- Este es un párrafo -->
+        <!-- Esto es un llamado de selector de tipo Id -->
+        <p id="colorParrafoAlto">
+            CSS, que significa "Cascading Style Sheets" 
+            (Hojas de Estilo en Cascada), es un lenguaje 
+            utilizado en el desarrollo de sitios web para 
+            dar estilo y diseño a las páginas HTML. Mientras 
+            que HTML se encarga de definir la estructura y 
+            el contenido de una página web, CSS se utiliza 
+            para controlar cómo se ve esa estructura y cómo 
+            se presentan los elementos en la página.
+        </p>
+        <!-- Este es un llamado de selector de tipo Clase -->
+        <p class="colorParrafoMedio">
+            CSS, que significa "Cascading Style Sheets" 
+            (Hojas de Estilo en Cascada), es un lenguaje 
+            utilizado en el desarrollo de sitios web para 
+            dar estilo y diseño a las páginas HTML. Mientras 
+            que HTML se encarga de definir la estructura y 
+            el contenido de una página web, CSS se utiliza 
+            para controlar cómo se ve esa estructura y cómo 
+            se presentan los elementos en la página.
+        </p>
+        <!-- Este es un llamado de selector tipo Clase -->
+        <p class="colorParrafoBajo">
+            CSS, que significa "Cascading Style Sheets" 
+            (Hojas de Estilo en Cascada), es un lenguaje 
+            utilizado en el desarrollo de sitios web para 
+            dar estilo y diseño a las páginas HTML. Mientras 
+            que HTML se encarga de definir la estructura y 
+            el contenido de una página web, CSS se utiliza 
+            para controlar cómo se ve esa estructura y cómo 
+            se presentan los elementos en la página.
+        </p>
+        <!-- Esta es una lista desordenada de equipos. -->
+        <ul>
+            <li>Real Madrid</li>
+            <li>PSG</li>
+            <li>Borussia Dortmund</li>
+            <li>Bayern Munich</li>
+        </ul>
+        <!-- Esta es una lista desordenada tipo menú. -->
+        <ul>
+            <li>
+                <a href="">Menú</a>
+            </li>
+            <li>
+                <a href="">Inicio</a>
+            </li>
+            <li>
+                <a href="">Nosotros</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

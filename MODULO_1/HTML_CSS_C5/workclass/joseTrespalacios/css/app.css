@@ -1,0 +1,6 @@
+body {
+    /* Esto es un fondo en color a un contenedor */
+    background-color: bisque;
+    /* Esto es un fondo de imagen a un contenedor x */
+    background-image: url("./../resources/background.jpg");
+}
