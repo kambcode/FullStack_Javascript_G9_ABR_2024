@@ -3,13 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Esta es la etiqueta de título de mi página -->
-    <title>M1G9 HTML CSS, selectores, y estilos</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Esta es mi etiqueta de Favicon, o ícono de pestaña -->
     <link rel="shortcut icon" href="./icon/icon.png">
+    <!-- Aquí voy a hacer los linkeos de CSS, que requiero. -->
+    <!-- Llamado de archivo app.css -->
+    <!-- En este vamos a trabajar selectores básicos -->
+    <link rel="stylesheet" href="./css/app.css">
+    <!-- Llamado de archivo base.css -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- Llamado de archivo estilos.css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- Llamado de archivo main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Esta es la etiqueta de título de mi página -->
+    <title>M1G9-HTML-CSS - CSS</title>
 </head>
 <body>
-    
+    <div class="contenedorTitulo">
+        <h1 class="tituloUnoPagina">Selectores, box model, estilos básicos</h1>
+    </div>
+    <div class="contenedorParrafo">
+        <p class="parrafoEjemplo">
+            **CSS**, que significa "**Cascading Style Sheets**" (**Hojas de Estilo en Cascada**), es un lenguaje utilizado en el desarrollo de sitios web para dar estilo y diseño a las páginas **HTML**. Mientras que HTML se encarga de definir la estructura y el contenido de una página web, CSS se utiliza para controlar cómo se ve esa estructura y cómo se presentan los elementos en la página.
+            Piensa en una página web como un libro. **HTML** sería como el contenido del libro: el **texto**, los **párrafos**, las **imágenes**, **etc**. Sin embargo, un libro también necesita ser presentado de **manera atractiva** y **fácil** de **leer**. Aquí es donde entra **CSS**. **CSS** sería como el **diseño** del **libro**: el tipo de **letra**, el **tamaño** **del** **texto**, los **colores de fondo**, el **espaciado entre** **párrafos**, y así sucesivamente.
+            Entonces, **CSS** es útil en los sitios web porque permite que los desarrolladores web controlen y personalicen la apariencia visual de sus páginas. Esto les da la capacidad de crear sitios web hermosos y atractivos que sean fáciles de navegar y agradables de ver para los usuarios. Sin CSS, todas las páginas web se verían iguales y serían mucho menos interesantes y atractivas.
+        </p>
+    </div>
+    <div id="cajaPadre">
+        <div class="cajaGenerica colorCajaUno">
+            <h2 class="tituloCajita">1</h2>
+        </div>
+        <div class="cajaGenerica colorCajaDos">
+            <h2 class="tituloCajita">2</h2>
+        </div>
+        <div class="cajaGenerica colorCajaTres">
+            <h2 class="tituloCajita">3</h2>
+        </div>
+        <div class="cajaGenerica colorCajaCuatro">
+            <h2 class="tituloCajita">4</h2>
+        </div>
+        <div class="cajaGenerica colorCajaCinco">
+            <h2 class="tituloCajita">5</h2>
+        </div>
+    </div>
 </body>
 </html>

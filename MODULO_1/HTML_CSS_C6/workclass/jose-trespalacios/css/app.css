@@ -1,0 +1,71 @@
+/* Este archivo CSS, lo vamos a usar 
+para el tema selectores básicos */
+
+/* Para probar, aplicamos un selector tipo elemento
+que me modifique el fondo del body. */
+
+body {
+    background-color: yellowgreen;
+    /* Es la propiedad que pone la fuente a mis páginas */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedorTitulo {
+    background-color: violet;
+    text-align: center;
+    padding: 15px;
+    border: solid 5px black;
+    margin: 15px;
+}
+
+.tituloUnoPagina{
+    /* Esta propiedad me ayuda con los fondos 
+    de colores. */
+    background-color: blanchedalmond;
+    /* Esta propiedad, me ayuda a definir el ancho
+    de los elementos. */
+    padding: 30px;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+.contenedorParrafo {
+    background-color: brown;
+    padding: 15px;
+    margin: 15px;
+    border: solid 5px black;
+}
+
+.parrafoEjemplo {
+    background-color: bisque;
+    padding: 30px;
+    margin: 30px;
+    border: solid 5px black;
+}
+
+#cajaPadre {
+    background-color: gray;
+}
+
+.cajaGenerica {
+    text-align: center;
+    width: 100%;
+}
+
+.colorCajaUno {
+    background-color: tomato;
+}
+
+.colorCajaDos {
+    background-color: red;
+}
+
+.colorCajaTres {
+    background-color: burlywood;
+}
+
+.tituloCajita {
+    color: teal;
+    margin: 20px;
+    padding: 20px;
+}
