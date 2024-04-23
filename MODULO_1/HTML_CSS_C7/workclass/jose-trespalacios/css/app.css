@@ -1,0 +1,19 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.contenedorTitulo {
+    background-color: bisque;
+    text-align: center;
+}
+
+.contenedorSubtema {
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+#tituloPuntoEvaluacion {
+    background-color: yellowgreen;
+    text-align: end;
+    color: azure;
+}
