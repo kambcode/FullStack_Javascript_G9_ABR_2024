@@ -21,6 +21,9 @@ body {
 .contenedorSubtema {
     background-color: darkkhaki;
     text-align: center;
+    border: solid 3px brown;
+    border-radius: 15px;
+    margin: 15px;
 }
 
 #tituloPuntoEvaluacion {
@@ -41,4 +44,11 @@ body {
     color:black;
     padding: 10px;
     margin: 10px;
+}
+
+.contenedorSubtemas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
 }
