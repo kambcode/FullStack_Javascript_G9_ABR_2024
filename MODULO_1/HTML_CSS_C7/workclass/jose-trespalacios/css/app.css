@@ -3,15 +3,19 @@ body {
 }
 
 .tituloPrincipal {
-    font-size: 20px;
+    font-size: 18px;
     padding: 15px;
     margin: 15px;
-    color:saddlebrown ;
+    color:saddlebrown;
 }
 
 .contenedorTitulo {
     background-color: bisque;
     text-align: center;
+    width: 50%;
+    height: 60px;
+    border: dotted 2px saddlebrown;
+    border-radius: 10px;
 }
 
 .contenedorSubtema {
