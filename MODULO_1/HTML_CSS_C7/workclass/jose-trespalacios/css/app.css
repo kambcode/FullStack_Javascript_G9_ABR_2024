@@ -2,6 +2,13 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
+.tituloPrincipal {
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+    color:saddlebrown ;
+}
+
 .contenedorTitulo {
     background-color: bisque;
     text-align: center;
@@ -16,4 +23,18 @@ body {
     background-color: yellowgreen;
     text-align: end;
     color: azure;
+}
+
+.tituloSubtema {
+    color:brown;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.parrafoIntroSubtema {
+    font-size: 12px;
+    color:black;
+    padding: 10px;
+    margin: 10px;
 }
