@@ -2,7 +2,7 @@
 
 ## Tarea práctica: Diseño de una página web con galería de imágenes, galería de libros y formulario de registro
 
-### Instrucciones:
+### Instrucciones
 
 Crea una página web que incluya una galería de imágenes, una galería de libros y un formulario de registro. La página debe cumplir con los siguientes requisitos:
 
