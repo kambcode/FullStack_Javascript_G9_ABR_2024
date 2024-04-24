@@ -40,3 +40,5 @@ Crea una página web que incluya una galería de imágenes, una galería de libr
 - Experimenta con diferentes valores para las propiedades Flexbox para lograr un diseño atractivo y funcional.
 - Asegúrate de probar tu página en varios dispositivos y tamaños de pantalla para garantizar su compatibilidad y usabilidad.
 - Utiliza comentarios en tu código HTML y CSS para explicar la estructura y el propósito de tus elementos y reglas de estilo.
+
+![Ejemplo 1](./resources/tarea.png)
