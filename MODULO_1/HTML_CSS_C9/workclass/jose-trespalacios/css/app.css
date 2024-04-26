@@ -1,0 +1,23 @@
+* {
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+header {
+    background-color: darkgrey;
+    text-align: center;
+    font-family: monospace;
+    color: darkblue;
+    padding: 20px;
+    border: solid 5px darkblue;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
