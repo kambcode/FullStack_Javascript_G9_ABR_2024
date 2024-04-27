@@ -1,19 +1,33 @@
 * {
-    background-color: bisque;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #DADADA;
 }
 
 header {
-    background-color: darkgrey;
-    text-align: center;
-    font-family: monospace;
-    color: darkblue;
-    padding: 20px;
-    border: solid 5px darkblue;
-    border-radius: 20px;
-    font-size: 18px;
+    background-color: blueviolet;
+    /* El margin se puede usar de manera segregada */
+    /* 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    */
+    /* Ó se puede usar, de manera abreviada */
+    margin: 20px 30px 0px 30px;
+    /* El padding se puede usar de manera segregada */
+    /* 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    */
+    /* Ó se puede usar, de manera abreviada */
+    padding: 20px 20px 20px 20px;
 }
 
 nav ul {
