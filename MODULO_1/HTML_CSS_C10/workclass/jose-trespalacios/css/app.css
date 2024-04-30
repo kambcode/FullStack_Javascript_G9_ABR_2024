@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 body {
     background-color: #DADADA;
+    font-family: "DM Sans", sans-serif;
 }
 
 header {
@@ -80,7 +83,6 @@ nav ul li a:hover {
 }
 
 main section {
-    background-color: #5980FF;
     padding: 40px 0;
     margin: 20px 5px;
     border-radius: 10px;
@@ -97,4 +99,20 @@ main section p {
 
 .flexBooks {
     display: flex;
+}
+
+.seccionLibroUno {
+    background-color: #060606;
+}
+
+.seccionLibroDos {
+    background-color: burlywood;
+}
+
+.seccionLibroTres {
+    background-color: #925088;
+}
+
+.tituloLibroFav {
+    font-family: "Montserrat", sans-serif;
 }
