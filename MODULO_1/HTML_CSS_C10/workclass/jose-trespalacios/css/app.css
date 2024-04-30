@@ -98,6 +98,8 @@ main section p {
 
 .flexBooks {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .seccionLibroUno {
@@ -136,6 +138,14 @@ main section p {
 
 .seccionLibroDos p {
     color: #564B3C;
+}
+
+.seccionLibroTres h3 {
+    color: #1E191B;
+}
+
+.seccionLibroTres p {
+    color: #1E191B;
 }
 
 .imagenPortadaUno {
