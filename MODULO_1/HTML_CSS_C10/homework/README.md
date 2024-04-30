@@ -1,6 +1,6 @@
 # Tarea
 
-**Tarea práctica: Diseño de una página web, galería + formulario funcional y aplicación de conceptos**
+**Tarea práctica: Diseño de una página web, galería + formulario y aplicación de conceptos**
 
 ### **Instrucciones:**
 
@@ -32,7 +32,7 @@ Crea una página web que incluya una galería de películas, una lista de reprod
 - Utiliza etiquetas HTML semánticas y selectores de CSS adecuados.
 - Asegúrate de que el formulario sea responsive y se vea bien en dispositivos móviles y de escritorio.
 
-**Formulario de Preguntas sobre HTML y CSS:**
+**Formulario de preguntas sobre HTML y CSS:**
 
 - Crea un formulario con preguntas básicas de selección sobre los temas de HTML y CSS aplicados en esta tarea.
 - Incluye al menos tres preguntas sobre HTML y tres preguntas sobre CSS.
