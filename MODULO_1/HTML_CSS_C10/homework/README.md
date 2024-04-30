@@ -47,3 +47,7 @@ Crea una página web que incluya una galería de películas, una lista de reprod
 - Utiliza media queries para garantizar que tu página sea responsive y se vea bien en dispositivos móviles y de escritorio.
 - Asegúrate de probar tu página en varios dispositivos y tamaños de pantalla para garantizar su compatibilidad y usabilidad.
 - Utiliza comentarios en tu código HTML y CSS para explicar la estructura y el propósito de tus elementos y reglas de estilo.
+
+![Ejemplo 1](./resources/tarea-galeria.png)
+![Ejemplo 2](./resources/tarea-formulario.png)
+![Ejemplo 3](./resources/tarea-formulario-dos.png.png)
