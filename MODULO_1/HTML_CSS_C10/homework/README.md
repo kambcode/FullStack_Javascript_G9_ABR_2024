@@ -50,4 +50,4 @@ Crea una página web que incluya una galería de películas, una lista de reprod
 
 ![Ejemplo 1](./resources/tarea-galeria.png)
 ![Ejemplo 2](./resources/tarea-formulario.png)
-![Ejemplo 3](./resources/tarea-formulario-dos.png.png)
+![Ejemplo 3](./resources/tarea-formulario-dos.png)
