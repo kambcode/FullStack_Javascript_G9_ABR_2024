@@ -84,9 +84,8 @@ nav ul li a:hover {
 
 main section {
     padding: 40px 0;
-    margin: 20px 5px;
+    margin: 30px 10px;
     border-radius: 10px;
-    border: dotted 5px white;
 }
 
 section h3 {
@@ -103,16 +102,50 @@ main section p {
 
 .seccionLibroUno {
     background-color: #060606;
+    border: solid 10px white;
+    border-radius: 12px;
 }
 
 .seccionLibroDos {
     background-color: burlywood;
+    border: solid 10px #564B3C;
+    border-radius: 12px;
 }
 
 .seccionLibroTres {
     background-color: #925088;
+    border: solid 10px #1E191B;
+    border-radius: 12px;
 }
 
 .tituloLibroFav {
     font-family: "Montserrat", sans-serif;
+}
+
+.seccionLibroUno h3 {
+    color: white;
+}
+
+.seccionLibroUno p {
+    color: white;
+}
+
+.seccionLibroDos h3 {
+    color: #564B3C;
+}
+
+.seccionLibroDos p {
+    color: #564B3C;
+}
+
+.imagenPortadaUno {
+    border: dotted 3px white;
+}
+
+.imagenPortadaDos {
+    border: dotted 3px #564B3C;
+}
+
+.imagenPortadaTres {
+    border: dotted 3px #1E191B;
 }
