@@ -31,3 +31,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Clase #7, 22/04/2024 - Selectores, Box model, Intr. Flexbox - https://youtu.be/bnE3zdJhbd0.
 - Clase #8, 24/04/2024 - Selectores, Flexbox, Intr. HTML Semántico - https://youtu.be/Z-c7FYqT6Ao.
 - Clase #9, 26/04/2024 - Selectores, Flexbox, HTML Semántico, Pseudoclases - https://youtu.be/OLZZNW-etuc.
+- Clase #10, 29/04/2024 - Selectores, Flexbox, HTML Semántico, Media Queries - https://youtu.be/955o_egg23o.
