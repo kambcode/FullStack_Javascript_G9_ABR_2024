@@ -1,0 +1,16 @@
+/* Este es un media querie base */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jacquard+12+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 800px) {
+    body {
+        background-color: #564B3C;
+        font-family: "Jacquard 12 Charted", system-ui;
+    }    
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: #5980FF;
+        font-family: "Jacquard 12 Charted", system-ui;
+    }    
+}

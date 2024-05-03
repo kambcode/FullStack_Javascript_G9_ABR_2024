@@ -1,0 +1,7 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tabla{
+    border: 25px  solid  green;
+    border-style: double;
+}
