@@ -86,6 +86,7 @@ main section {
     padding: 40px 0;
     margin: 30px 10px;
     border-radius: 10px;
+    width: 400px;
 }
 
 section h3 {
@@ -98,7 +99,6 @@ main section p {
 
 .flexBooks {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -158,4 +158,8 @@ main section p {
 
 .imagenPortadaTres {
     border: dotted 3px #1E191B;
+}
+
+section div img {
+    max-width: 200px;
 }
