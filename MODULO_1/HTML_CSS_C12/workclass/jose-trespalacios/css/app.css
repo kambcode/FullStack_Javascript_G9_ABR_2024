@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DADADA;
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    /* El margin se puede usar de manera segregada */
+    /* 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    */
+    /* Ó se puede usar, de manera abreviada */
+    margin: 20px 30px 0px 30px;
+    /* El padding se puede usar de manera segregada */
+    /* 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    */
+    /* Ó se puede usar, de manera abreviada */
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    border: solid 1px #5980FF;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header section {
+    text-align: center;
+    margin: 5px 5px;
+}
+
+header section p {
+    text-align: end;
+    font-size: 14px;
+    margin: 15px 15px;
+    color: slateblue;
+}
+
+/* Esta declaración dice, que atodos
+los li, que están dentro de un ul, 
+y que a su vez, están dentro de un nav,
+se le aplican los estilos dados, en este
+selector de tipo elemento, con estatus. */
+
+nav ul li {
+    margin: 8px 16px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #5980FF;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: #99FF00;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main section {
+    padding: 40px 0;
+    margin: 30px 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+section h3 {
+    color:darkblue;
+}
+
+main section p {
+    color:darkblue;
+}
+
+.flexBooks {
+    display: flex;
+    justify-content: center;
+}
+
+.seccionLibroUno {
+    background-color: #060606;
+    border: solid 10px white;
+    border-radius: 12px;
+}
+
+.seccionLibroDos {
+    background-color: burlywood;
+    border: solid 10px #564B3C;
+    border-radius: 12px;
+}
+
+.seccionLibroTres {
+    background-color: #925088;
+    border: solid 10px #1E191B;
+    border-radius: 12px;
+}
+
+.tituloLibroFav {
+    font-family: "Montserrat", sans-serif;
+}
+
+.seccionLibroUno h3 {
+    color: white;
+}
+
+.seccionLibroUno p {
+    color: white;
+}
+
+.seccionLibroDos h3 {
+    color: #564B3C;
+}
+
+.seccionLibroDos p {
+    color: #564B3C;
+}
+
+.seccionLibroTres h3 {
+    color: #1E191B;
+}
+
+.seccionLibroTres p {
+    color: #1E191B;
+}
+
+.imagenPortadaUno {
+    border: dotted 3px white;
+}
+
+.imagenPortadaDos {
+    border: dotted 3px #564B3C;
+}
+
+.imagenPortadaTres {
+    border: dotted 3px #1E191B;
+}
+
+section div img {
+    max-width: 200px;
+}

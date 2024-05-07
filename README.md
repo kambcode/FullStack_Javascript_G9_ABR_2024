@@ -33,3 +33,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Clase #9, 26/04/2024 - Selectores, Flexbox, HTML Semántico, Pseudoclases - https://youtu.be/OLZZNW-etuc.
 - Clase #10, 29/04/2024 - Selectores, Flexbox, HTML Semántico, Media Queries - https://youtu.be/955o_egg23o.
 - Clase #11, 02/05/2024 - Selectores, Media Queries - https://youtu.be/XMdcVsmqhgE.
+- Clase #12, 06/05/2024 - Media queries, CSS, repaso general- https://youtu.be/pJPP0zivFdg.
