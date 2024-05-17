@@ -38,3 +38,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 ## Modulo 2
 - C1. 14/05/2024 Introducciòn Variables: https://youtu.be/5MIlH-7I89A
+- C2. 16/05/2024 Condicionales (if-else): https://youtu.be/OtvmxRNsIXo
