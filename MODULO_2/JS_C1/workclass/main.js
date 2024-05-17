@@ -60,8 +60,8 @@ document.write("<br>El precio total es: ", precioTotal);
 
 //alert("Esto es una alerta, dale aceptar");
 
-var nombreUsuario = prompt("Esto es una alerta, porfavor  digite su nombre");
-document.write("<br>El nombre que digitaste es: ", nombreUsuario);
+//var nombreUsuario = prompt("Esto es una alerta, porfavor  digite su nombre");
+//document.write("<br>El nombre que digitaste es: ", nombreUsuario);
 
 
 // Tarea
