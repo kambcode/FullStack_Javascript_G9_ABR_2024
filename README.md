@@ -33,9 +33,12 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - Clase #9, 26/04/2024 - Selectores, Flexbox, HTML Semántico, Pseudoclases - https://youtu.be/OLZZNW-etuc.
 - Clase #10, 29/04/2024 - Selectores, Flexbox, HTML Semántico, Media Queries - https://youtu.be/955o_egg23o.
 - Clase #11, 02/05/2024 - Selectores, Media Queries - https://youtu.be/XMdcVsmqhgE.
-- Clase #12, 06/05/2024 - Media queries, CSS, repaso general- https://youtu.be/pJPP0zivFdg.
+- Clase #12, 06/05/2024 - Media queries, CSS, repaso general- https://youtu.be/pJPP0zivFdg  .
 
 
 ## Modulo 2
 - C1. 14/05/2024 Introducciòn Variables: https://youtu.be/5MIlH-7I89A
 - C2. 16/05/2024 Condicionales (if-else): https://youtu.be/OtvmxRNsIXo
+- C3. 20/05/2024 Constantes y operadores lógicos en JS Parte 1: https://youtu.be/HBr1EA2Kn5k
+- C3. 20/05/2024 Constantes y operadores lógicos en JS Parte 2: https://youtu.be/7gJlha9DKHM
+
