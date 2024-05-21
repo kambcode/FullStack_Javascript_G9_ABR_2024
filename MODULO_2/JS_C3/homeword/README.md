@@ -14,7 +14,7 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
     - No es miembro del club de la tienda pero ha comprado más de $200.000.
 
 4. #### Opcional:
-Escribe un programa que determine si una tienda esta abierta. La tienda abre de lunes a viernes de 9A.M a 5P.M. Si hoy es sabado o domingo, la tienda está cerrada. Para ello debes crear una variable (`const diaDeSemana`) y otra (`const hora`).
+    Escribe un programa que determine si una tienda esta abierta. La tienda abre de lunes a viernes de 9A.M a 5P.M. Si hoy es sabado o domingo, la tienda está cerrada. Para ello debes crear una variable (`const diaDeSemana`) y otra (`const hora`).
 
 ### NOTA: 
 Recuerda colocar parentesis, esto para asegurar que las condiciones se evalúen en el orden correcto y que la logica de la condición se respete, con el fin de obtener los resultados esperados.
