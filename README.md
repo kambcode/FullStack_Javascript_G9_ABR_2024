@@ -42,3 +42,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3. 20/05/2024 Constantes y operadores lógicos en JS Parte 1: https://youtu.be/HBr1EA2Kn5k
 - C3. 20/05/2024 Constantes y operadores lógicos en JS Parte 2: https://youtu.be/7gJlha9DKHM
 - C4. 22/05/2024 Condicionales if / else if / else: https://youtu.be/Q9vfCKlab5s
+- C5. 24/05/2024 Ciclos for y while: https://youtu.be/MZAHL-h9sms
