@@ -19,5 +19,3 @@ Fin, Total a ahorrar $ 240
 
 
 NOTA: no es necesario preguntar al usuario las variables de entrada de tus programas, por favor crea constantes simulando el valor que el usuario ingresó
-
-3. Escribir un programa que muestre por pantalla las tablas de multiplicar del 1 al 10
