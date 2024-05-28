@@ -14,6 +14,14 @@ document.write(usuario);
 usuario = "Daniel"
 document.write(usuario);
 
+// FRONT o navegador
+// document.write()
+// prompt()
+
+// Nube o Backend
+// console.log()
+
+
 
 
 
