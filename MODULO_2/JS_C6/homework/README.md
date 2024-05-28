@@ -6,9 +6,11 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
 
 Como tarea te proponemos crear algunos programas usando bucles (for / while):
 
-1. Dada una variable con la edad de un usuario, escribe un programa que muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
+1. Descargar exitosa node.js
 
-2. Escribir un programa que pregunte al usuario una cantidad a invertir (mensualmente) y el número de meses durante los que quiere invertir. El programa debe mostrar por pantalla el capital obtenido en la inversión cada mes hasta el final de la misma. Ejemplo si yo decido invertir $80 mensuales por 3 meses el programa me debe mostar lo siguiente:
+2. Dada una variable con la edad de un usuario, escribe un programa que muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
+
+3. Escribir un programa que pregunte al usuario una cantidad a invertir (mensualmente) y el número de meses durante los que quiere invertir. El programa debe mostrar por pantalla el capital obtenido en la inversión cada mes hasta el final de la misma. Ejemplo si yo decido invertir $80 mensuales por 3 meses el programa me debe mostar lo siguiente:
 
     Mes 1: $ 80
     Mes 2: $ 160
@@ -18,9 +20,10 @@ Como tarea te proponemos crear algunos programas usando bucles (for / while):
 
 
 
-3. ### Opcional
+4. ### Opcional
+    
     Escribir un programa que muestre por pantalla las tablas de multiplicar del 1 al 10
-4. Descargar exitosa node.js
+
 
 
 NOTA: no es necesario preguntar al usuario las variables de entrada de tus programas, por favor crea constantes simulando el valor que el usuario ingresó
