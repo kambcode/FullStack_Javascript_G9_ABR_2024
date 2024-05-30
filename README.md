@@ -44,3 +44,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C4. 22/05/2024 Condicionales if / else if / else: https://youtu.be/Q9vfCKlab5s
 - C5. 24/05/2024 Ciclos for y while: https://youtu.be/MZAHL-h9sms
 - C6. 27/05/2024 Var y let / Instalación de node JS: https://youtu.be/XQdukpWzBR8
+- C7. 29/05/2024 Arrays y Math: https://youtu.be/t6E6GM1BIzw
