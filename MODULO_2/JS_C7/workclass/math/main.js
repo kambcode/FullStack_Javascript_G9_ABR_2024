@@ -17,6 +17,6 @@
 // const aleatorio = Math.random() * 10
 // console.log("Mi numero aleatorio es: ", Math.round(aleatorio))
 
-// Generar numeros entre intervalor Math.random() * (max - min) + min
+// Generar numeros entre intervalos Math.random() * (max - min) + min
 const aleatorio2 = Math.random() * (20 - 10) + 10
-console.log("Mi numero aleatorio es: ", Math.round(aleatorio2))
+console.log("Mi numero aleatorio es: ", Math.round(aleatorio2));
