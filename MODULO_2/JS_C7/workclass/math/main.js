@@ -1,6 +1,6 @@
 // La libreria de matematicas de JS es Math
 
-// 1. Generar numeros aleatorios
+// 1. Math.random() -> Generar numeros aleatorios
 // console.log("tu numero aleatorio es ",Math.random()) // -> Generar numeros aleatorios entre 0 y 1
 
 // Math.random() * 10 -> Genera numero aleatorio entre 0 y 10
