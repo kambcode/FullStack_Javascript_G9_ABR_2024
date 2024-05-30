@@ -10,7 +10,7 @@ Como tarea te proponemos crear algunos programas usando todo lo visto hasta ahor
 
 2. Crea un array `myArray` de 50 elementos (números), que contendrá 50 numeros números aleatorios entre 1 y 10. Ejemplo `[ 3, 2 , 6, 8, 1, 3, 5, 2 .....]` (50 elementos)
 
-3. Usando el array que creaste en el punto 2, vamos a crear un nuevo arreglo llamado `newArray` que contenga solo los numeros que son menores a 4. Ejemplo si en punto 1 generaste un arreglo  `myArray` como este [7,2,5,2,9,3,1,4,8], tu nuevo arreglo `newArray` debera ser [2,2,3,1].
+3. Usando el array que creaste en el punto 2, vamos a crear un nuevo arreglo llamado `newArray` que contenga solo los numeros que son menores a 4. Ejemplo si en punto 2 generaste un arreglo  `myArray` como este [7,2,5,2,9,3,1,4,8], tu nuevo arreglo `newArray` debera ser [2,2,3,1].
 **Tip** Utiliza un for para recorrer el primer `myArray` arreglo e ir llenando el segundo  (`newArray.push`) pero solo si el valor es menor a 4.
 
 
