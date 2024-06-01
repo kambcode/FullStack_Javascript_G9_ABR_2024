@@ -1,12 +1,12 @@
-//console.log("Hello World");
+console.log("Hello World");
 // como ejecurar node.js en la terminal en este caso que mi archivo se llama main.js
 // node main.js
 
-// Arreglos || Arrays
+// Arreglos || Arrays || Listas
 // Los arreglos son listas o estructuras de datos que permiten almacenar multiples valores
 // del mismo tipo o de diferentes tipos en una sola variable
 
-// Ejemplo una variable que tiene una lista de productos
+// // Ejemplo una variable que tiene una lista de productos
 // const shoppingList = ["leche", "pan", "arroz", "manzanas", "uvas"];
 // console.log(shoppingList);
 
@@ -19,7 +19,7 @@
 // const array = []; // Lista o Arreglo Vacio
 
 // UTILIDADES DE LOS ARREGLOS
-// 1. Como saber cuantos elementos tiene un arreglo
+// 1. Como saber cuantos elementos tiene un arreglo .lenght
 // let shoppingList2 = ["leche", "pan", "arroz", "manzanas", "uvas"];
 // console.log("Mi lista de compras tiene", shoppingList2.length, " elementos");
 
@@ -40,11 +40,11 @@ const todoList = ["tareas", "leer", "deporte", "bañarse", "vestirse"] // Tiene 
 
 // 4. Podemos reemplazar un elemento de nuestro array
 // reemplazar el elemento vertirse por peinarse del arreglo todoList
-todoList[4] = "peinarse"
-console.log("Tu nuevo todoList es: ", todoList);
+// todoList[4] = "peinarse"
+// console.log("Tu nuevo todoList es: ", todoList);
 
-// 4. Para saber si el arreglo contiene un elemento -> True o False
+// 4. Para saber si el arreglo contiene un elemento .includes() -> True o False
 
-console.log("el todoList tiene leer:", todoList.includes("leer"));
+// console.log("el todoList tiene leer:", todoList.includes("leer"));
 
 
