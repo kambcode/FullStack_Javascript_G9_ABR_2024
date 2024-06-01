@@ -16,9 +16,9 @@
 // console.log("tu numero aleatorio es ", aleatorio);
 
 // 2. Math.round() -> Redondear un numero
-const aleatorio = Math.random() * 10
-console.log("Mi numero aleatorio es: ", Math.round(aleatorio))
+// const aleatorio = Math.random() * 10
+// console.log("Mi numero aleatorio es: ", Math.round(aleatorio))
 
-// Generar numeros entre intervalos Math.random() * (max - min) + min
-// const aleatorio2 = Math.random() * (20 - 10) + 10
+// Generar numeros entre intervalos Math.random() * (max - min) + min // 48 y 36
+// const aleatorio2 = Math.random() * (48 - 36) + 36
 // console.log("Mi numero aleatorio es: ", Math.round(aleatorio2));
