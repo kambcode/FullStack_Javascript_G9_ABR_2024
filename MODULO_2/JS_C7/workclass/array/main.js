@@ -1,7 +1,7 @@
 // Vamos a crear un arreglo vacio, que lo vamos a ir llenando y la idea es que
 // el usuario digite 10 nuevos productos
 
-let shoppingList3 = [];
+// let shoppingList3 = [];
 
 // const element = prompt("Ingresa algo a la lista de compras");
 // shoppingList3.push(element);
@@ -30,11 +30,14 @@ let shoppingList3 = [];
 // Generar un arreglo (lista) que tenga los numeros del 1 al 1000
 // console.log(myArray) -> [1, 2, 3, 4... 1000]
 
-let myArray = [];
+// let myArray = [];
 
-for(let contador = 1; contador <= 1000; contador++){
-    myArray.push(contador);
-}
+// for(let contador = 1; contador <= 1000; contador++){
+//     myArray.push(contador);
+// }
 
-console.log(myArray);
+// console.log(myArray);
+
+
+
 
