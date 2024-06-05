@@ -46,3 +46,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C6. 27/05/2024 Var y let / Instalación de node JS: https://youtu.be/XQdukpWzBR8
 - C7. 29/05/2024 Arrays y Math: https://youtu.be/t6E6GM1BIzw
 - C8. 31/05/2024 Repaso Ciclos, Array y Math: https://youtu.be/nuN0vnrSOcI
+- C9. 04/06/2024 Funciones: https://youtu.be/jqBqCcfi6cM
