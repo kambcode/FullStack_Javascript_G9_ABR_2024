@@ -6,7 +6,7 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
 
 Como tarea te proponemos crear algunos programas usando bucles (for / while):
 
-1. Descargar exitosa node.js
+1. Descargar e instalar exitosamente node.js https://nodejs.org/
 
 2. Dada una variable con la edad de un usuario, escribe un programa que muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
 
