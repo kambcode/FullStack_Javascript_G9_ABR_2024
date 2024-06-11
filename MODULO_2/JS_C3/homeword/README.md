@@ -13,7 +13,7 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
     - Es miembro del club de la tienda (`esMiembro es true`) y ha comprado más de $50.000.
     - No es miembro del club de la tienda pero ha comprado más de $200.000.
 
-4. #### Opcional:
+4. **Opcional:**
     Escribe un programa que determine si una tienda esta abierta. La tienda abre de lunes a viernes de 9A.M a 5P.M. Si hoy es sabado o domingo, la tienda está cerrada. Para ello debes crear una variable (`const diaDeSemana`) y otra (`const hora`).
 
 ### NOTA: 
