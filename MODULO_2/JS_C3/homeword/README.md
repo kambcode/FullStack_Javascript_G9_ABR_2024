@@ -4,7 +4,7 @@ Las tareas de los módulos son pensadas para profundizar en los temas expuestos 
 
 ## Tareas
 
-1. Cree un programa que verifique si un usuario puede acceder a una pagina web. Para acceder, el usuario debe ser mayor o igual de 18 años y este debe tener una suscripcion activa, para la suscripcion puedes crear una variable que sea igual a ´true´.
+1. Cree un programa que verifique si un usuario puede acceder a una pagina web. Para acceder, el usuario debe ser mayor o igual de 18 años y este debe tener una suscripcion activa, para la suscripcion puedes crear una variable que sea igual a `true`.
 
 2. Cree un programa para una tienda, donde los clientes obtienen un descuento bajo ciertas condiciones. Si son miembros del club de la tienda o si han comprado más de $100.000, obtienen un descuento del 10%.
 
