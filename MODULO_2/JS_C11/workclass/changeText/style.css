@@ -1,0 +1,10 @@
+.title{
+    color: red;
+    text-decoration: underline;
+}
+
+.button{
+    padding: 10px 40px;
+    background-color: aqua;
+    cursor: pointer;
+}
