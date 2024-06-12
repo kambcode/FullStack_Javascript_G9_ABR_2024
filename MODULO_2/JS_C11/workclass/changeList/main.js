@@ -5,5 +5,3 @@ const addToList = () => {
     const name = "Walter";
     listaParticipante.innerHTML = listaParticipante.innerHTML + "<li>" + name + "</li>";
 }
-
-suma = suma + 1
