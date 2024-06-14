@@ -1,3 +1,5 @@
+//Algoritmia
+
 // Miremos un ejemplo basico donde literalmente planteamos un algoritmo de cocina para cocinar un huevo.
 // Cuando vamos a cocinar un huevo tenemos que pensar en como lo queremos, si frito o hervido que son sus 
 // preparaciones mas comunes, por supuesto podríamos considerar mas pero para este caso solo consideraremos
