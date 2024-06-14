@@ -49,3 +49,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C9. 04/06/2024 Funciones: https://youtu.be/jqBqCcfi6cM
 - C10. 06/06/2024 Objetos y arrow function: https://youtu.be/5pgqNM--s-E
 - C11. 11/06/2024 Modificando el DOM: https://youtu.be/OaapSCdoTuU
+- C12. 13/06/2024 Algoritmia: https://youtu.be/yNV3c8nNqXY
