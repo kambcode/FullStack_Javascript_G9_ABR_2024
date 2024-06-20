@@ -53,3 +53,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 ## Modulo 3
 - C1. 17/06/2024 Introducción a git: https://youtu.be/3UiKtbAMaMw
+- C2. 19/06/2024 Repaso comandos básicos de git y creación de ramas: https://youtu.be/wXdf2OctkTg
