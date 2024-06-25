@@ -55,3 +55,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1. 17/06/2024 Introducción a git: https://youtu.be/3UiKtbAMaMw
 - C2. 19/06/2024 Repaso comandos básicos de git y creación de ramas: https://youtu.be/wXdf2OctkTg
 - C2. 21/06/2024 Workshop de paso a paso de como subir tareas a github: https://youtu.be/rqXr7wzLHjw
+- C3. 24/06/2024 Repaso del paso a paso de como subir tareas a github y algunos comandos de git cvomo reset, revert, stash, log y reflog: https://youtu.be/Wo27_cOFu1w
