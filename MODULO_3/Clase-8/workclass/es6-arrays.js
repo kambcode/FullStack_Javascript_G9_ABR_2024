@@ -105,3 +105,48 @@ console.log(dobles);
 // 2. Retornar un nuevo array que filtre los numeros que empiecen en 7 y sean pares
 const empiezaSieteYEsPar = numbers1.filter(number => String(number).startsWith("7") && number % 2 === 0)
 console.log(empiezaSieteYEsPar);
+
+
+// Ejercicios de practica
+// 1. Filtrar estudiantes que sean mayores a 22 años y verificar si todos son colombianos
+const estudiantes = [
+    {
+        nombre: 'usuario1',
+        edad: 30,
+        nacionalidad: 'Colombiano'
+    },
+    {
+        nombre: 'usuario2',
+        edad: 20,
+        nacionalidad: 'Colombiano'
+    },
+    {
+        nombre: 'usuario3',
+        edad: 28,
+        nacionalidad: 'Colombiano'
+    },
+    {
+        nombre: 'usuario4',
+        edad: 24,
+        nacionalidad: 'Colombiano'
+    },
+    {
+        nombre: 'usuario5',
+        edad: 23,
+        nacionalidad: 'Argentino'
+    },
+    {
+        nombre: 'usuario6',
+        edad: 29,
+        nacionalidad: 'Colombiano'
+    },
+];
+
+const estudiantesFiltrados = estudiantes.filter(estudiante => estudiante.edad > 22);
+const segundoFiltro = estudiantesFiltrados.some(estudiante => estudiante.nacionalidad === 'Argentino');
+console.log(segundoFiltro)
+
+if (!segundoFiltro) {
+    throw new Error('Error general');
+}
+console.log(estudiantesFiltrados.map(estudiante => estudiante.nombre));
