@@ -61,3 +61,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C7. 03/07/2024 Manipulación de arrays y objetos: https://youtu.be/E_uFK6iG32c
 - C8. 05/07/2024 Metodos de arrays con ES6 y scope: https://youtu.be/RvpwltssWAs
 - C9. 08/07/2024 Callbacks y repaso funciones: https://youtu.be/rxkBrZjknws
+- C10. 11/07/2024 Promesas con then y catch: https://youtu.be/KC6PyjzCcbE
