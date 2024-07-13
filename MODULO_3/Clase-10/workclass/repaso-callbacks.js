@@ -45,7 +45,7 @@ const obtenerMenoresEdadCallback = estudiante => {
 };
 
 const mostrarLosQueElNombreEmpiecePorF = estudiante => {
-    if (estudiante.nombre.startsWith('C')) {
+    if (estudiante.nombre.startsWith('F')) {
         console.log(estudiante);
     }
 };
