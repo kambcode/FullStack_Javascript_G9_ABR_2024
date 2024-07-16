@@ -63,3 +63,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C9. 08/07/2024 Callbacks y repaso funciones: https://youtu.be/rxkBrZjknws
 - C10. 11/07/2024 Promesas con then y catch: https://youtu.be/KC6PyjzCcbE
 - C11. 12/07/2024 Repaso promesas con then y catch: https://youtu.be/RIOuhv1YSLQ
+- C12: 15/07/2024 Async y await y repaso final https://youtu.be/2pqLwUmNOTY
