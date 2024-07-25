@@ -32,9 +32,3 @@ Tomar pantallazo de lo que nos esta devolviendo el JSON
 Lee artículos o tutoriales que expliquen cómo funciona la comunicación entre el BackEnd y el FrontEnd en una aplicación web.
 Buscar ejemplos de implementación de esta comunicación utilizando diferentes tecnologías y protocolos, como REST, GraphQL o WebSockets.
 
-# Links Video de la clase
-
-Muchachos por temas tecnicos no me quedo grabado lo que se realizo en visual studio.
-
-https://www.youtube.com/watch?v=U1as3ZciiOA 
-https://www.youtube.com/watch?v=ro2eGLkVKvo
