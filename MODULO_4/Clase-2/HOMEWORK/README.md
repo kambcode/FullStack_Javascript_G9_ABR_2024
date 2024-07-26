@@ -13,6 +13,12 @@ Esta tarea tiene como objetivo ayudarte a familiarizarte con la configuración i
 
 2. Creación del proyecto de React:
 
+Para las personas que no tengas instalado "VITE"
+Posicionar primero en el directorio y abrir la terminal con la direccion del directorio
+
+Por favor ejecutar este comando en la terminal
+"npm i vite"
+
 Ejecuta el siguiente comando en la terminal para crear un nuevo proyecto de React:
 
 ```bash
@@ -42,7 +48,7 @@ function App() {
   return (
     <div>
       <h1>Artista/personaje Favorito</h1>
-      <img src="url-de-la-foto-del-personaje" alt="Foto personaje" />
+      <img src="" alt="Foto personaje" />
       <p>
         Breve  descripción del personaje.
         Puedes incluir detalles como su nombre, género, si está vivo o no, etc.
