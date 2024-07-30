@@ -69,3 +69,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1. 22/07/2024 Introducción al DOM y Métodos HTTP https://www.youtube.com/watch?v=U1as3ZciiOA  https://www.youtube.com/watch?v=ro2eGLkVKvo 
 - C2. 24/07/2024 ¿Por qué utilizar React o cualquier otro framework de FrontEnd? https://youtu.be/drsQfS7ucM0
 - C3. 26/07/2024 Que son Componentes y Props https://youtu.be/cL4aZJrRtDc
+- C4. 29/07/2024 Tipos de estados (HOOKS) https://youtu.be/R6zT2gP3DHI
