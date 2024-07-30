@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button id="mostrar">
+            mostrar la informacion del api
+        </button>
+        <div id="contenido"></div>
+
+    </header>
+    <script>
+        document.getElementById('mostrar').addEventListener('click',mostrarDatosApi, true);
+        let contenido = document.querySelector('#contenido');
+        const url = 'https://randomuser.me/api/';
+        function mostrarDatosApi(){
+            console.log('entro');
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data.results[0],'data -->');
+                    contenido.innerHTML = ` <img src='${data.results[0].picture.large}'>
+                                            <p>Nombre: ${data.results[0].name.first}</p>
+                                            `
+            })
+        }
+
+        // const mostrarDatosApi1 = async() =>{
+        //     const res = await fetch(url);
+        //     const data = await res.json();
+        //     contenido.innerHTML = ` <img src='${data.results[0].picture.large}'>
+        //                                     <p>Nombre: ${data.results[0].name.first}</p>
+        //                                     `  
+        // }
+
+        // mostrarDatosApi1();
+    </script>
+</body>
+</html>
