@@ -55,7 +55,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1. 17/06/2024 Introducción a git: https://youtu.be/3UiKtbAMaMw
 - C2. 19/06/2024 Repaso comandos básicos de git y creación de ramas: https://youtu.be/wXdf2OctkTg
 - C3. 21/06/2024 Workshop de paso a paso de como subir tareas a github: https://youtu.be/rqXr7wzLHjw
-- C4. 24/06/2024 Repaso del paso a paso de como subir tareas a github y algunos comandos de git cvomo reset, revert, stash, log y reflog: https://youtu.be/Wo27_cOFu1w
+- C4. 24/06/2024 Repaso del paso a paso de como subir tareas a github y algunos comandos de git como reset, revert, stash, log y reflog: https://youtu.be/Wo27_cOFu1w
 - C5. 26/06/2024 Markdown y repaso de comparadores en js: https://youtu.be/0WIuA6ZAFGI
 - C6. 28/06/2024 Operadores lógicos y coerción: https://youtu.be/nOdOOcJZrOo
 - C7. 03/07/2024 Manipulación de arrays y objetos: https://youtu.be/E_uFK6iG32c
