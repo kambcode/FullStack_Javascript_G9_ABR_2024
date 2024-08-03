@@ -108,8 +108,8 @@ console.log((true || false) && true && (false && true && true)); // false
 console.log((true || false) && true && (false && true || true)); // true
 
 // ORDEN DE PRIORIDAD
-// 1. ! negacion
-// 2. ()
+// 1. ()
+// 2. ! negacion
 // 3. && and
 // 4. || or
 
