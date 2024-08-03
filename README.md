@@ -71,3 +71,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3. 26/07/2024 Que son Componentes y Props https://youtu.be/cL4aZJrRtDc
 - C4. 29/07/2024 Tipos de estados (HOOKS) https://youtu.be/R6zT2gP3DHI
 - C5. 31/07/2024 Tipos de eventos y creacion de un login https://youtu.be/W3qAAGVLAQ0
+- C6. 02/08/2024 Route y QueryParams Teorico https://youtu.be/WWUkWtk2m7Q
