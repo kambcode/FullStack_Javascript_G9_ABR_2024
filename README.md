@@ -73,3 +73,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C5. 31/07/2024 Tipos de eventos y creacion de un login https://youtu.be/W3qAAGVLAQ0
 - C6. 02/08/2024 Route y QueryParams Teorico https://youtu.be/WWUkWtk2m7Q
 - C7. 05/08/2024 Ejercicio practico aplicando Route y tomar  el valor de un param en la url https://youtu.be/J9AX0zK6l-w
+- C8. 08/08/2024 Ejercicio practico Queryparams y crear un search https://youtu.be/VUpfxxx5-YA
