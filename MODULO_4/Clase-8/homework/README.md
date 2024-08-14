@@ -18,11 +18,52 @@ Recuerda que al ser parametros de query puedes enviar más de uno separados por 
 
 ### Pasos a seguir:
 
-1. Vamos a agregar como minimo dos filtros a tu página, un filtro por nombre de personaje y otro por genero (las opciones son `female`, `male`, `genderless` o `unknown`), recuerda crear dos variables de estado para poder controlar este par de filtros.
+1. Vamos a usar una variable de estado donde vamos almacenar el valor del input
 
 ```javascript
-const [nameFilter, setNameFilter] = useState('');
-const [genreFilter, setGenreFilter] = useState('');
+const [query, setQuery] = useState('');
+```
+2. Luego tenemos que usar dos hooks useNavigate() y el useLocation donde vamos almacenar el valor de la variable query
+```javascript
+  const navigate = useNavigate()
+  const urlData = useLocation()
+```
+
+Ejemplo
+```javascript
+  navigate(`/?character=${query}`);
+```
+3. Luego de declarar el parametro que vamos agregar en la url se la pasamos al Hook URLsearchParams()
+
+```javascript
+const queryParams = new URLSearchParams(urlData.search)
+```
+
+4. Agrega un evento onClick al boton o onSubmit si estamos utilizando la etiqueta form , de esta forma cuando des click en buscar vas a poder usar las variables de estado creadas en el paso número 1 para poder lanzar nuevamente la llamada a la API y actualizar el listado de personajes
+
+```javascript
+  useEffect(() => {
+    
+    const metodoDondeSeEjecutaElApi = async () => {
+      if (/** Aqui agregar la condicion para cuando traiga el param**/) {
+        const url = `https://rickandmortyapi.com/api/character/?name=${/**Agregar la logica del parametro**/}`;
+        /**
+        Logica normal del consumo del api
+        el try catch
+        **/
+      } else {
+        /*
+        y si no se cumple la condicion del if() entonces se ejecutara esta ruta donde te redirigira al home 
+        */
+        const url = `https://rickandmortyapi.com/api/character/`;
+        /*
+        Logica del consumo del api
+        el try catch
+        */
+      }
+    }; 
+    fetchCharacters();
+  }, [/*hacer el llamado de la constante que esta agregando los parametros a la url*/]);
 ```
 
 2. Agrega a el archivo App.jsx un formulario y los componentes necesarios para poder filtrar, por ejemplo tu página deberia verse ahorá asi:
@@ -32,11 +73,6 @@ const [genreFilter, setGenreFilter] = useState('');
 
 ```javascript
 const onSearch = () => {
-  const filterParams = new URLSearchParams({
-    name: nameFilter,
-    gender: genreFilter,
-    // TODO: si tienes paginación la puedes incluir acá
-  });
 
   // Haciendo el llamado a la API
   fetch("https://rickandmortyapi.com/api/character/" + filterParams)
@@ -53,4 +89,4 @@ const onSearch = () => {
 
 #### Reto: Incluye más filtros a tu página
 
-Como reto te invitamos a incluir inlcuir más filtros como por ejemplo un filtro por `type` y por `status` (alive, dead or unknown)
+Como reto te invitamos a incluir inlcuir más filtros como por ejemplo un filtro por `status` (alive, dead or unknown)
