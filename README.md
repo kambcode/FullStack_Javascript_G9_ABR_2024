@@ -75,3 +75,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C7. 05/08/2024 Ejercicio practico aplicando Route y tomar  el valor de un param en la url https://youtu.be/J9AX0zK6l-w
 - C8. 08/08/2024 Ejercicio practico Queryparams y crear un search https://youtu.be/VUpfxxx5-YA
 - C9. 08/12/2024 deploy con vercel https://youtu.be/6ucD_QWIDWM
+- C10. 14/08/2024 Hook useContext https://youtu.be/VWWcVTS78hY
