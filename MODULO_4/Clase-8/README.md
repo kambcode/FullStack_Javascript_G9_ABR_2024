@@ -30,11 +30,19 @@ Implementamos manejo de errores para manejar posibles problemas durante el proce
 
 ```
 import React, { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom'
+    const navigate = useNavigate()
+    const urlData = useLocation()
+    const queryParams = new URLSearchParams(urlData.search)
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+
+  const putUserNameUrl = () => {
+        navigate(`/contacto?usernamte=${username}`)
+    }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -43,6 +51,7 @@ const Login = () => {
       setError('Por favor ingrese nombre de usuario y contraseña.');
       return;
     }
+    putUserNameUrl()
     // Envío de datos al servidor
     // Aquí iría la lógica para enviar los datos de inicio de sesión al servidor
   };
