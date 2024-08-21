@@ -48,13 +48,14 @@ const verificarCalificaciones = new Promise((resolve, reject) => {
 
 async function recompenza() {
     try {
-        /* Solucion alterna bloqueante
-        const respComportamiento = await verificarComportamiento;
-        const respCalificaciones = await verificarCalificaciones;
-        console.log(respComportamiento);
-        console.log(respCalificaciones);
-        */
+        // Solucion bloqueante
+        //const respComportamiento = await verificarComportamiento;
+        //const respCalificaciones = await verificarCalificaciones;
+        //console.log(respComportamiento);
+        //console.log(respCalificaciones);
+        
 
+        //Solucion no bloqueante
         const [ respComportamiento, respCalificaciones ] = await Promise.all([ verificarComportamiento, verificarCalificaciones ]);
 
         if (respComportamiento && respCalificaciones) {
