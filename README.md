@@ -76,3 +76,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C8. 08/08/2024 Ejercicio practico Queryparams y crear un search https://youtu.be/VUpfxxx5-YA
 - C9. 08/12/2024 deploy con vercel https://youtu.be/6ucD_QWIDWM
 - C10. 14/08/2024 Hook useContext https://youtu.be/VWWcVTS78hY
+
+## Modulo 5
+- C1 26/08/2024 Repaso Js y Ecmascript 6+ https://youtu.be/pxKSBak17N4
