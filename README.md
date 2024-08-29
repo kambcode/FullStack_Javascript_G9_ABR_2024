@@ -79,3 +79,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 ## Modulo 5
 - C1 26/08/2024 Repaso Js y Ecmascript 6+ https://youtu.be/pxKSBak17N4
+- C2 28/08/2024 Introduccion a node js https://youtu.be/KB4868WvMvc
