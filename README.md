@@ -80,3 +80,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## Modulo 5
 - C1 26/08/2024 Repaso Js y Ecmascript 6+ https://youtu.be/pxKSBak17N4
 - C2 28/08/2024 Introduccion a node js https://youtu.be/KB4868WvMvc
+- C3 29/08/2024 Repaso Async, promise y callbacks https://youtu.be/nN2F05ecFrg
+- C4 02/09/2024 Streams y archivos en node https://youtu.be/3SatUfPw-Ug
