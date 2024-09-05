@@ -1,32 +1,40 @@
 // import { createReadStream } from 'fs';
-import { error } from "console"
+
 import { readFile, appendFile, open, writeFile, write, unlink } from "fs"
 
-unlink('file.txt', (error) => {
-    if(error) console.error(error)
-    else console.log("file deleted") 
-})
+// CRUD -> Create, Read, Update, Delete
 
-// writeFile('file.txt', "Hello World 2", (error) => {
-//     if (error) console.error(error)
-//     else console.log("file created")
+// unlink('file.txt', (error) => {
+//     if(error) console.error(error) 
+//     else console.log("file deleted") 
 // })
 
-// open('file.txt', 'w' , (error, file) => {
-//     if(error) console.error(error)
-//     else console.log("file opened")
-// })
+// open('file.txt', 'w', (err, file) => {
+//     if (err) throw err;
+//     const buffer = Buffer.from('Hola mundo');
+//     write(file, buffer, 0, buffer.length, null, (err, written) => {
+//       if (err) throw err;
+//       console.log(`Bytes escritos: ${written}`);
+//       close(file, (err) => {
+//         if (err) throw err;
+//       });
+//     });
+//   });
 
 // readFile('file.txt', (error, data) => {
 //     if (error) console.error(error)
-//     else console.log(data)
+//     else console.log(data.toString())
 // })
 
-// appendFile('file.txt', ", hello world 2", (error) => {
+// appendFile('file.txt', ", hello world 4", (error) => {
 //     if(error) console.log(error)
 //     else console.log("file updated")
 // })
 
+// writeFile('file.txt', "esto es una prueba", (error) => {
+//     if (error) console.error(error)
+//     else console.log("file created")
+// })
 
 
 
