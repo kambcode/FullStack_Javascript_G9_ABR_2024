@@ -82,3 +82,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C2 28/08/2024 Introduccion a node js https://youtu.be/KB4868WvMvc
 - C3 29/08/2024 Repaso Async, promise y callbacks https://youtu.be/nN2F05ecFrg
 - C4 02/09/2024 Streams y archivos en node https://youtu.be/3SatUfPw-Ug
+- C5 04/09/2024 Variables de entorno, envio de datos por terminal https://youtu.be/TUgnRdUdzfU 
+- C6 06/09/2024 Crear Servidor con http https://youtu.be/XieoKKmuD1M 
+- C7 09/09/2024 Creacion de servidor con express https://youtu.be/pzFUtNEn3ow
