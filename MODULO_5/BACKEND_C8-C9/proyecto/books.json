@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Harry Potter",
+        "author": "J.K. Rowling",
+        "gender": "Fantasy"
+    },
+    {
+        "id": 2,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "gender": "Fantasy"
+    },
+    {
+        "id": 3,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "gender": "Mystery"
+    }
+]
