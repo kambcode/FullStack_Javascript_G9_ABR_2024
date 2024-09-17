@@ -85,3 +85,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C5 04/09/2024 Variables de entorno, envio de datos por terminal https://youtu.be/TUgnRdUdzfU 
 - C6 06/09/2024 Crear Servidor con http https://youtu.be/XieoKKmuD1M 
 - C7 09/09/2024 Creacion de servidor con express https://youtu.be/pzFUtNEn3ow
+- C8 13/09/2024  Repaso Metodos get,put ... Persistencia con Archivos locales https://youtu.be/yCPJuZWxhPM
+- C9 16/09/2024 Middlewares https://youtu.be/jA4PZLrRwWI
