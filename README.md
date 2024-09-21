@@ -88,3 +88,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C8 13/09/2024  Repaso Metodos get,put ... Persistencia con Archivos locales https://youtu.be/yCPJuZWxhPM
 - C9 16/09/2024 Middlewares https://youtu.be/jA4PZLrRwWI
 - C10 17/09/2024 Mentoria de dudas hasta ahora e introduccion a openai https://youtu.be/DvbbD2eK0-A
+- C11 18/09/20 Creacion de backend con apis de open AI https://youtu.be/V9uiOFOJBo8 
+- C12 20/09/2024 Integracion Backend con Frontend https://youtu.be/yAZxZ35sXCo
