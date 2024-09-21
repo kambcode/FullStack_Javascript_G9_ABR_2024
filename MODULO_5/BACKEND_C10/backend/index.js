@@ -1,5 +1,6 @@
 import express from "express";
 import axios from "axios";
+import cors from 'cors'
 import "dotenv/config";
 const app = express();
 const port = process.env.PORT || 3000;
@@ -7,6 +8,16 @@ const port = process.env.PORT || 3000;
 const openaiURL = "https://api.openai.com/v1/chat/completions";
 
 app.use(express.json());
+
+// const corsOptions = {
+//   origin: 'https://mi-dominio.com', // Solo permitir peticiones desde este dominio
+//   methods: ['GET', 'POST'],         // Solo permitir estos métodos
+//   allowedHeaders: ['Content-Type'], // Solo permitir estos headers
+// };
+
+// app.use(cors(corsOptions));
+
+app.use(cors())
 
 
 const objeto = {
