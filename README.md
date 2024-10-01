@@ -92,3 +92,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C12 20/09/2024 Integracion Backend con Frontend https://youtu.be/yAZxZ35sXCo
 
 ## Modulo 6
+- C1 30/09/2024 Bases de datos - Relaciones 1 a 1 y 1 a muchos https://youtu.be/Ec1pz038vWQ
