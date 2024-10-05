@@ -1,0 +1,21 @@
+
+
+SQL = lenguaje estructurado de consultas 
+
+DMBS = Databases Managment System
+
+RDBMS = RDBMS software
+
+    Oracle
+    MySQL
+    Microsoft SQL Server
+    PostgreSQL
+    Maria DM
+
+
+DDL = Data definition Language -> creacion y modificacion de las tablas
+
+    CREATE
+
+DML = Data Modication Language -> para trabajar con los datos ( registros );
+
