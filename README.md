@@ -95,3 +95,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C1 30/09/2024 Bases de datos - Relaciones 1 a 1 y 1 a muchos https://youtu.be/Ec1pz038vWQ
 - C2 01/10/2024 Relaciones muchos a muchos - PG Admin https://youtu.be/VSLWOYlChFU
 - C3 04/10/2024 SQL CREATE y INSERT INTO https://youtu.be/msp1hCQUewU
+- C4 07/10/2024 SQL SELECT y DML https://youtu.be/VeMhmKrIuiU
