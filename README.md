@@ -97,3 +97,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C3 04/10/2024 SQL CREATE y INSERT INTO https://youtu.be/msp1hCQUewU
 - C4 07/10/2024 SQL SELECT y DML https://youtu.be/VeMhmKrIuiU
 - C5 08/10/2024 SQL Repaso SubConsultas Y JOIN https://youtu.be/e2JyQdRERgg
+- C6 11/10/2024 SQL Refuerzo, Repaso Express-JS https://youtu.be/ki6S1He5D2E

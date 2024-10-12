@@ -41,7 +41,7 @@ INSERT INTO Book (Book_ID, Title, Genre, Publication_Year, Publisher_ID) VALUES
 (1, '1984', 'Dystopian', 1949, 1),
 (2, 'Pride and Prejudice', 'Romance', 1813, 2),
 (3, 'Adventures of Huckleberry Finn', 'Adventure', 1884, 3),
-(4, 'Harry Potter and the Philosopher\'s Stone', 'Fantasy', 1997, 1),
+(4, 'Harry Potter and the Philosopher''s Stone', 'Fantasy', 1997, 1),
 (5, 'The Hobbit', 'Fantasy', 1937, 1);
 
 -- Crear tabla Book_Author (relación muchos a muchos entre Book y Author)
