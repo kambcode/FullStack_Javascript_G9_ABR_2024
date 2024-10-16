@@ -1,89 +1,152 @@
-const { Router } = require('express');
-const { movies, directors } = require('../data');
+const { Router } = require("express");
+const sequelize = require("../db/sequelize");
 
 const router = Router();
 
+router.get("/movies", async (req, res) => {
+  const { limit } = req.query;
 
-router.get('/movies', (req, res) => {
-    res.json(movies);
+  let query = `
+    SELECT * FROM movies
+  `;
+
+  limit ? (query += ` LIMIT ${limit};`) : (query += ";");
+
+  try {
+    const result = await sequelize.query(query, {
+      type: sequelize.QueryTypes.SELECT,
+    });
+    console.log(result);
+
+    res.json(result);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
 });
 
-
-router.get('/movies/:id', (req, res) => {
-    console.log(req.params);
+router.get("/movies/:id", async (req, res) => {
+  try {
     const id = parseInt(req.params.id);
 
-    const movie = movies.find(movie => movie.id === id);
-    if (!movie) return res.status(404).json({ message: 'Movie not found'});
-    res.json(movie);
+    const result = await sequelize.query(
+      `
+      SELECT * FROM movies
+      WHERE id = :id
+    `,
+      {
+        replacements: { id },
+        type: sequelize.QueryTypes.SELECT,
+      }
+    );
+
+    if (!result?.length > 0)
+      return res.status(404).json({ message: "Movie not found" });
+    res.json(result[0]);
+  } catch (error) {
+    res.status(500).json({ message: "Internal server error" });
+  }
 });
 
-
-router.post('/movies', (req, res) => {
-    
-    const { directorId, releaseYear } = req.body;
+router.post("/movies", async (req, res) => {
+  try {
+    const { releaseYear, title, genre } = req.body;
     console.log(req.body);
 
+    if (!title || !genre || !releaseYear) {
+      return res.status(400).json({ message: "All fields are required" });
+    }
 
-    if (!req.body.title || !directorId || !req.body.genre || !releaseYear) {
-        return res.status(400).json({message: 'All fields are required'});
+    if (isNaN(releaseYear)) {
+      return res
+        .status(404)
+        .json({ message: "release year should be a numbers" });
+    }
+
+    const result = await sequelize.query(
+      `
+      INSERT INTO movies (title, genre, releaseYear)
+      VALUES (:title, :genre, :releaseYear)
+      RETURNING *;
+    `,
+      {
+        replacements: { title, genre, releaseYear },
+        type: sequelize.QueryTypes.INSERT,
       }
+    );
 
-    if (isNaN(releaseYear) || isNaN(directorId) ) {
-        return res.status(404).json({ message: 'release year and director id should be a numbers'})
+    if (!result[0].length > 0) {
+      return res.status(404).json({ message: "something went wrong" });
     }
 
-    const director = directors.find(director => director.id === directorId);
+    res.status(201).json(result[0][0]);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
 
-    if (!director ){
-        return res.status(404).json({ message: `directorId: ${directorId} doens't exist`})
+router.put("/movies/:id", async (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+
+    const { releaseYear, title, genre } = req.body;
+
+    if (!title || !genre || !releaseYear) {
+      return res.status(400).json({ message: "All fields are required" });
     }
-    
-    
-    const movie = {
-        id: movies.length + 1,
-        title: req.body.title,
-        directorId: req.body.directorId,
-        genre: req.body.genre,
-        releaseYear: req.body.releaseYear
-      };
-    
-    movies.push(movie);
 
-    res.status(201).json(movie);
+    const [movies, number] = await sequelize.query(
+      `
+        UPDATE movies
+        SET title = :title,
+            genre = :genre,
+            releaseYear = :releaseYear
+        WHERE id = :id
+        RETURNING *;
+        `,
+      {
+        replacements: { title, genre, releaseYear, id },
+        type: sequelize.QueryTypes.UPDATE,
+      }
+    );
 
-})
+    if (number <= 0)
+      return res.status(404).json({ message: "Movie not found" });
 
+    res.status(200).json(movies[0]);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
 
-router.put('/movies/:id', (req, res) => {
-
+router.delete("/movies/:id", async (req, res) => {
+  try {
     const id = parseInt(req.params.id);
 
-    const movie = movies.find(movie => movie.id === id);
-    
-    if (!movie) return res.status(404).json({message: 'Movie not found'});
-  
-    movie.title = req.body.title;
-    movie.directorId = req.body.directorId;
-    movie.genre = req.body.genre;
-    movie.releaseYear = req.body.releaseYear;
-  
-    res.status(200).json(movie);
-  });
+    const result = await sequelize.query(
+      `
+      DELETE FROM movies
+      WHERE id = :id
+      RETURNING *;
+      `,
+      {
+        replacements: { id },
+        type: sequelize.QueryTypes.DELETE,
+      }
+    );
 
+    console.log(result);
 
-router.delete('/movies/:id', (req, res) => {
+    if (result.length === 0)
+      return res.status(404).json({ message: "Movie not found" });
 
-    const id = parseInt(req.params.id);
-
-    const movieIndex = movies.findIndex(m => m.id === id);
-    console.log({movieIndex});
-    
-    if (movieIndex === -1) return res.status(404).json({ message: 'Movie not found'});
-  
-    const deletedMovie = movies.splice(movieIndex, 1);
-    res.json(deletedMovie[0]);
-  });
-
+    res.json(result[0]);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
+  }
+});
 
 module.exports = router;
