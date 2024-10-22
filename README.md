@@ -100,3 +100,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - C6 11/10/2024 SQL Refuerzo, Repaso Express-JS https://youtu.be/ki6S1He5D2E
 - C7 15/10/2024 SQL ORM sequelize https://youtu.be/80j9Oes4pBA
 - C8 18/10/2024 SQL ORM sequelize Modelos y Refactorizacion https://youtu.be/dfE6l3haDOQ
+- C9 21/10/2024 Relaciones en Sequelize https://youtu.be/qfiaMEiVduY
